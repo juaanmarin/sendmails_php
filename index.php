@@ -16,17 +16,17 @@
         <div class='right'>
             <h2>Form</h2>
             <div class="login__field-group">
-					<label class="login__label" for="user-email">Name</label>
-					<input class="login__field" id="user-email" type="text" name="name" />
+				<label class="login__label" for="name">Name</label>
+				<input class="login__field" id="name" type="text" name="name" />
 			</div>
             <div class="login__field-group">
-					<label class="login__label" for="user-email">Email</label>
-					<input class="login__field" id="user-email" type="email" name="email" />
+				<label class="login__label" for="email">Email</label>
+				<input class="login__field" id="email" type="email" name="email" />
 			</div>
             <div class="login__field-group">
-					<label class="login__label" for="user-email">Text</label>
-					<input class="login__field" id="user-email" type="text" name="text" />
-			</div>
+                <label class="login__label" for="text">Text</label>
+                <textarea class="login__fieldD" id="text" name="text"></textarea>
+            </div>
 
             <button >Send</button>
         </div>
